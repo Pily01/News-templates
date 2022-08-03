@@ -1,0 +1,190 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Navbar */
+.navbar{
+    padding-left: 10px !important;
+    background-color: #03242B;
+    height: 80px;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.navbar a:hover{
+    color: #45ad56 !important;
+}
+
+.navbar .active{
+    color: #45ad56 !important;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-image: url(../images/main-background.png);
+    height: 700px;
+    width: 100%;
+    background-position: center;
+}
+
+.jumbo-text{
+    font-weight: 200;
+    color: white;
+    font-size: 60px;
+}
+
+.jumbo-sub-text{
+    color: white;
+    margin-top: 30px;
+    font-weight: 100;
+}
+
+/* C A R D   G R O U P */
+
+.card-img{
+    width: 200px !important;
+    align-self: center;
+    background-color: #03242B;
+    margin: 10px 0;
+}
+
+.card-group{
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.group-card{
+    max-width: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 25px !important;
+    border-color: white !important; 
+    background-color: #03242B !important;
+    box-shadow: 20px 25px 20px 6px #d5d0d0 !important;
+    transition: ease all 0.5s;
+}
+
+.group-card:hover {
+    max-width: 400px;
+}
+
+.card h3{
+    color: white;
+    margin-bottom: 30px;
+}
+.card p{
+    padding: 0 10px;
+    color: white;
+}
+
+/* S U B   S E C T I O N */
+
+.sub-1{
+    background-image: url("../images/sub-background-1.png");
+    min-height: 900px !important;
+    max-width: 100% !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.sub-2{
+    background-image: url("../images/sub-background-2.png");
+    min-height: 900px !important;
+    max-width: 100% !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.sub-section h4{
+    margin: 0 30px;
+}
+
+.sub-section-title{
+    margin-bottom: 50px;
+    color: #45AD7E;
+}
+
+/* M I N I   S E C T I O N */
+
+.mini-section{
+    min-height: 700px !important;
+    max-width: 100% !important;
+}
+
+.image-col-1{
+ background-image: url("../images/fuel.png");
+ width: 100px;
+ height: 800px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.image-col-2{
+    background-image: url("../images/deforestation.png");
+    width: 100px;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+
+.info-col h5{
+    color: #758182;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+span{
+    color: #45ad56;
+}
+
+/* News Section */
+
+.news-card{
+    min-height: 300px !important;
+    margin-top: 30px;
+}
+
+.news-card h4{
+    color: #45ad56 !important;
+    margin-bottom: 20px !important;
+}
+
+.news-card h5{
+    color: #787979 !important;
+    font-weight: 100;
+}
+
+.btn-news{
+    width: 150px;
+    align-self: center;
+    background-color: #03242B !important;
+    color: white !important;
+    margin-top: 20px !important;
+    transition: ease all 0.5s !important;
+}
+
+.btn-news:hover{
+    width: 180px;
+    color: #45ad56 !important;
+}
+
+/* Footer */
+footer{
+    background-color: #c3c3c3;
+}
+
+footer img{
+    width: 200px;
+}
