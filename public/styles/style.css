@@ -5,7 +5,7 @@
 /* Navbar */
 .navbar{
     padding-left: 10px !important;
-    background-color: #03242B;
+    background-color: #011a3c;
     height: 80px;
 }
 
@@ -20,17 +20,17 @@
 }
 
 .navbar a:hover{
-    color: #45ad56 !important;
+    color: #C1CEFA !important;
 }
 
 .navbar .active{
-    color: #45ad56 !important;
+    color: #C1CEFA !important;
 }
 
 /* Jumbotron */
 
 .jumbotron{
-    background-image: url(../images/main-background.png);
+    background-image: url(../images/1.png);
     height: 700px;
     width: 100%;
     background-position: center;
@@ -53,7 +53,7 @@
 .card-img{
     width: 200px !important;
     align-self: center;
-    background-color: #03242B;
+    background-color: #011a3c;
     margin: 10px 0;
 }
 
@@ -68,7 +68,7 @@
     margin-bottom: 100px;
     border-radius: 25px !important;
     border-color: white !important; 
-    background-color: #03242B !important;
+    background-color: #011a3c !important;
     box-shadow: 20px 25px 20px 6px #d5d0d0 !important;
     transition: ease all 0.5s;
 }
@@ -89,7 +89,7 @@
 /* S U B   S E C T I O N */
 
 .sub-1{
-    background-image: url("../images/sub-background-1.png");
+    background-image: url("../images/2.png");
     min-height: 900px !important;
     max-width: 100% !important;
     background-attachment: fixed;
@@ -98,7 +98,7 @@
 }
 
 .sub-2{
-    background-image: url("../images/sub-background-2.png");
+    background-image: url("../images/3.png");
     min-height: 900px !important;
     max-width: 100% !important;
     background-attachment: fixed;
@@ -112,7 +112,7 @@
 
 .sub-section-title{
     margin-bottom: 50px;
-    color: #45AD7E;
+    color: #C1CEFA;
 }
 
 /* M I N I   S E C T I O N */
@@ -123,7 +123,7 @@
 }
 
 .image-col-1{
- background-image: url("../images/fuel.png");
+ background-image: url("../images/4.png");
  width: 100px;
  height: 800px;
  background-repeat: no-repeat;
@@ -131,7 +131,7 @@
 }
 
 .image-col-2{
-    background-image: url("../images/deforestation.png");
+    background-image: url("../images/5.png");
     width: 100px;
     height: 800px;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@
 }
 
 span{
-    color: #45ad56;
+    color: #05449c;
 }
 
 /* News Section */
@@ -169,7 +169,7 @@ span{
 .btn-news{
     width: 150px;
     align-self: center;
-    background-color: #03242B !important;
+    background-color: #052E66 !important;
     color: white !important;
     margin-top: 20px !important;
     transition: ease all 0.5s !important;
@@ -182,7 +182,8 @@ span{
 
 /* Footer */
 footer{
-    background-color: #c3c3c3;
+    background-color: #011a3c;
+    color: white;
 }
 
 footer img{
